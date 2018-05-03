@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/cet"
+    tools:context=".signup">
+
+    <EditText
+        android:id="@+id/fstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/lstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:textSize="30dp"
+        android:layout_marginTop="-61dp"
+        android:layout_marginLeft="195dp"/>
+
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="250dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:onClick="setDate"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="40dp"/>
+
+    <TextView
+        android:id="@+id/gndr"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Gender"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textSize="20dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="140dp"
+        android:checked="true"/>
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:textSize="20dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="230dp"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_sbmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+
+</LinearLayout>
